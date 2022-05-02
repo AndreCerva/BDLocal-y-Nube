@@ -1,0 +1,25 @@
+<!--Importaciones-->
+{%extends 'base.html'%}
+<!--Block Title-->
+{%block title%}
+    {{super()}}
+    welcome to the controler
+{%endblock%}
+<!--Body-->
+{%block body%}
+    {{super()}}
+<div class="container">
+    <h1>Seleccionar la orden</h1>
+    <form  method="post">
+         <div class="options">
+             <select title="options" name="options">
+                 <option value="ON">Encender luz</option>
+                 <option value="OFF">Apagar luz</option>
+             </select>
+        </div>   
+        <div class="submit">
+            <input name="submit" id="idsubmit" type="submit"/>
+        </div>
+    </form>
+</div>
+{%endblock%}

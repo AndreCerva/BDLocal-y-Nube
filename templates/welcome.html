@@ -1,0 +1,18 @@
+<!-- Importaciones -->
+{%extends 'base.html'%}
+<!--Block Title-->
+{%block title%}
+    {{super()}}
+    mensaje enviado
+{%endblock%}
+<!-- Block body -->
+{%block body%}
+    {{super()}}
+    <div class="container"><br><br>
+        <h2 align="center">Actualizaciones en la Base de datos</h2><br>
+         <p align="center">Dispositivo detectado: {{orden}}</p>
+         <p align="center">Mensaje recibido: {{data}}</p>
+         <br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+
+{%endblock%}
