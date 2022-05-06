@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'BDCloud'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_35A88A1576304B3291454F62BCD28A12 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D964C71CC3964A1294C18B31B2FBF4E5 }}
